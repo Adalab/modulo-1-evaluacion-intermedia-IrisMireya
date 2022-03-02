@@ -26,3 +26,8 @@
     color: var(--light-grey);
     text-decoration: none;
 }
+
+.main {
+    background-color: var(--nice-aqua);
+    color: var(--pearl-white);
+}
