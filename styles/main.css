@@ -12,16 +12,21 @@
 }
 .logo {
     position: sticky;
+    display: flex;
+    justify-content: center;
     padding: 10px;
+    margin: 10px;
 }
 .menu {
     font-family: 'Rubik', sans-serif;
     color: var(--light-grey);
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between 20px;
     gap: 20px;
     font-size: 16px;
+    margin: 13px;
+
 }
 .menu_link {
     color: var(--light-grey);
