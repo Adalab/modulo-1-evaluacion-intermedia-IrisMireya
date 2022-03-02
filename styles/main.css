@@ -11,8 +11,9 @@
 
 }
 .logo {
-    position: sticky;
     display: flex;
+    position: sticky;
+    flex-direction: column;
     justify-content: center;
     padding: 10px;
     margin: 10px;
@@ -23,9 +24,11 @@
     list-style: none;
     display: flex;
     justify-content: space-between 20px;
+    justify-content: center;
     gap: 20px;
     font-size: 16px;
     margin: 13px;
+    text-align: center;
 
 }
 .menu_link {
@@ -38,9 +41,25 @@
     color: var(--pearl-white);
     height: 200vh;
     font-size: 30px;
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+
+@media all and (min-width: 780px) {
+    .menu {
+        flex-direction: row-reverse;
+        font-size: 16px;
+    }
+    .logo {
+        padding: 20px;
+        margin: 20px;
+    }
+    .main {
+        font-size: 40px;
+    }        
 }
