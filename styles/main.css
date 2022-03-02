@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    font-size: 16px;
 }
 .menu_link {
     color: var(--light-grey);
@@ -30,4 +31,11 @@
 .main {
     background-color: var(--nice-aqua);
     color: var(--pearl-white);
+    height: 200vh;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
