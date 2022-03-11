@@ -33,6 +33,7 @@
 .menu_link {
     color: var(--light-grey);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .main {
@@ -44,13 +45,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-transform: capitalize;
 }
 
 @media all and (min-width: 780px) {
     .menu {
         flex-direction: row-reverse;
-        font-size: 16px;
     }
     .logo {
         padding: 20px;
